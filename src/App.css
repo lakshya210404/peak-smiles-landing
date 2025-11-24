@@ -15,13 +15,24 @@
 /* PAGE */
 .ps-page {
   min-height: 100vh;
-  background: radial-gradient(circle at top left, #f2f5ff 0, #fff8fd 45%, #ffffff 100%);
+
+  /* NEW WARM BACKGROUND */
+  background: linear-gradient(
+    160deg,
+    #fff3ed 0%,
+    #fff3f8 35%,
+    #fff9fe 70%,
+    #ffffff 100%
+  );
+
   color: var(--ps-text-main);
   display: flex;
   flex-direction: column;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
 }
+
+
 
 /* HEADER */
 .ps-header {
