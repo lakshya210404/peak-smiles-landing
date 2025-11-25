@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -7,13 +14,11 @@
 }
 
 body {
-  margin: 0;
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
-
-  /* soft background behind the React app */
-  background: radial-gradient(circle at top left, #eef3ff 0, #fff4fa 45%, #ffffff 100%);
-  color: #111827;
+  background: #fdf7ff; /* soft warm base behind React app */
+  color: #1f2933;
+  overflow-x: hidden; /* prevent accidental horizontal scroll */
 }
 
 a {
