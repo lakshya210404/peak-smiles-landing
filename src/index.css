@@ -11,13 +11,8 @@ body {
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
 
-  /* Soft warm background for the whole page */
-  background: linear-gradient(
-    145deg,
-    #fff7f2 0%,
-    #fff2fa 40%,
-    #fefcfe 100%
-  );
+  /* soft background behind the React app */
+  background: radial-gradient(circle at top left, #eef3ff 0, #fff4fa 45%, #ffffff 100%);
   color: #111827;
 }
 
